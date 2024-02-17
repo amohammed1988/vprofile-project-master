@@ -46,8 +46,8 @@ systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
 
-git clone -b main https://github.com/hkhcoder/vprofile-project.git
-cd vprofile-project
+git clone -b master https://github.com/amohammed1988/vprofile-project-master.git
+cd vprofile-project-master
 mvn install
 systemctl stop tomcat
 sleep 20
